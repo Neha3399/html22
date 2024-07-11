@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            margin: auto;
+            width: 400px;
+            margin-top: 50px;
+            padding: 50px;
+            border-radius: 0.5rem;
+            box-shadow: 5px 5px 5px 5px gray;
+            background-color: lightgray;
+        }
+        label{
+            width: 150px; 
+            display: inline-block;
+        }
+        textarea{
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body> <div>
+   <form >
+    <h1 style="color: yellow; font-size: medium;">register now</h1>
+    <label for="">enter name</label>
+    <input type="text" placeholder="name" required><br><br>
+    <label for="">enter mobile number</label>
+    <input type="number" placeholder="number"><br><br>
+    <label for="">enter gender</label>
+    <input type="radio" name="gender">male
+    <input type="radio" name="gender">female <br><br>
+    <label for="">enter qualification</label>
+    <input type="checkbox">sslc
+    <input type="checkbox">plus two
+    <input type="checkbox">degree <br><br>
+    <label for="">enter district</label>
+    <select >
+        <option value="">kannur</option>
+        <option value="">calicut</option>
+        <option value="">wayanad</option>
+        <option value="">idukki</option>
+    </select><br><br>
+    <label for="">enter address</label>
+    <textarea name="" id="" cols="20" rows="3"></textarea><br><br>
+    <label for="">email</label>
+    <input type="email"><br><br>
+    <label for="">password</label>
+    <input type="password" pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,12}$/g"><br><br>
+    <label for="">select profile photo</label>
+    <input type="file" style="margin-left: 150px;"> <br><br>
+    <input type="submit" value="register now" style="background-color: blue; color: white; margin: left 120px ; border: none;">
+    
+
+   </form></div>
+</body>
+</html>
